@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  max-width: 800px;
+  background-color: green;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.controller {
+  background: red;
+  width: 50%;
+}
+
+.drum-pads {
+  background-color: yellow;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px;
+  grid-gap: 12px;
+}
+
+.btn {
+  border: none;
+  padding: 45px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+}
